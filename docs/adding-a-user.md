@@ -35,7 +35,7 @@ gpg --list-keys
 ## Create a new user
 
 Open the [users.tf](users.tf) file and create a new instance of a `user` module.
-```hcl-terraform
+```hcl
 module "john_doe" {
   source  = "modules/user"
   name    = "john.doe"
@@ -54,7 +54,7 @@ module "john_doe" {
 ``` 
 
 Include your user summary in the [output.tf](output.tf) file.
-```hcl-terraform
+```hcl
 output "users_summary" {
   value = [
     module.john_doe.summary,
@@ -68,7 +68,7 @@ Commit the changes and create a pull request for merging them into the master br
 
 If your pull request was merged a new build should be triggered. Look for the build output and locate the 
 `users_summary` section.
-```
+```hcl
 users_summary = [
   {
     "access_key_id" = "AKIAWS5GSEV382CPXLTL",
