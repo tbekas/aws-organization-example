@@ -1,0 +1,9 @@
+.idea
+.bundle/
+.vscode/
+
+.DS_Store
+
+.terraform/
+errored.tfstate
+terraform.tfstate*.backup
