@@ -97,7 +97,7 @@ links = {
 }
 ```
 
-## Configuring MFA
+## Configure MFA
 
 Follow the instructions on the [official AWS User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html#tutorial_mfa_step3) to configure the MFA. Remember to sign-out and sign-in again to have MFA enabled.
 
