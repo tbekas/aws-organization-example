@@ -1,8 +1,8 @@
-output "users_summary" {
-  value = [
-    module.tomasz_bekas.summary
-  ]
-}
+#output "users_summary" {
+#  value = [
+#    module.john_doe.summary
+#  ]
+#}
 
 output "links" {
   value = {

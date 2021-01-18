@@ -5,7 +5,8 @@ locals {
     production = "acme-corp-production"
   }
 
-  # Use existing emails, in case of the account recovery
+  # Use existing emails, in case of the account recovery. You will have to use different email addresses. Some email
+  # providers offer sub-addressing, with a tag after the + (plus) sign, so you can have infinite amount of addresses.
   account_owner_email = {
     users      = "admin+users@acmecorp.com"
     staging    = "admin+staging@acmecorp.com"
